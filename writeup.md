@@ -113,6 +113,12 @@ If a well known architecture was chosen:
 * Why did you believe it would be relevant to the traffic sign application?
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
  
+####5. Describe the approach taken for finding a solution. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
+
+1. To begin with, I used the LeNet Model. The number of epochs were 16, learning rate was 0.01. The model was overfitted as the training accuracy was 98% and test accuracy was 89.6%. 
+
+2. To overcome this, I used early termination while training the model. That reduced overfitting, and now the model has training accuracy of 95.4 and test accuracy of 86.9%. 
+
 
 ###Test a Model on New Images
 
@@ -138,7 +144,7 @@ Here are the results of the prediction:
 | General Caution		| Traffic Signals      							|
 
 
-The model was able to correctly guess 1 of the 5 traffic signs, which gives an accuracy of 40%. This compares badly to the accuracy on the test set of 5 images.
+The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. This compares badly to the accuracy on the test set of 5 images.
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
