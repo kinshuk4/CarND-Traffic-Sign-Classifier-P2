@@ -115,9 +115,15 @@ If a well known architecture was chosen:
  
 ####5. Describe the approach taken for finding a solution. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
-1. To begin with, I used the LeNet Model. The number of epochs were 16, learning rate was 0.01. The model was overfitted as the training accuracy was 98% and test accuracy was 89.6%. 
+1. To begin with, I used the LeNet Model. The number of epochs were 16, learning rate was 0.01. The model was overfitted as the training accuracy was 98% and test accuracy was 89.6%. It had a success rate of 0.4 on new images.
 
-2. To overcome this, I used early termination while training the model. That reduced overfitting, and now the model has training accuracy of 95.4 and test accuracy of 86.9%. 
+2. To overcome this, I used early termination while training the model. Number of epochs were 10 in this case. That reduced overfitting, and now the model has training accuracy of 95.4 and test accuracy of 86.9%. 
+
+3. Added a dropout layer with keep_prob=0.5. This reduced the difference between training and testing accuracy. This time it was 92.6% training and 86.4% testing accuracy. Overfitting has definitely reduced. This had the success rate of 0.6 on the new images.
+
+4. 
+
+
 
 
 ###Test a Model on New Images
