@@ -121,7 +121,7 @@ If a well known architecture was chosen:
 
 3. Added a dropout layer with keep_prob=0.5. This reduced the difference between training and testing accuracy. This time it was 92.6% training and 86.4% testing accuracy. Overfitting has definitely reduced. This had the success rate of 0.6 on the new images.
 
-4. 
+4. Now I reduced the learning rate from 0.01 to .005. This helped me in getting the validation accuracy of 97.8 and test accuracy of 91.2. This again reduced the accuracy of the images from 0.6 earlier to 0.4. :(
 
 
 
