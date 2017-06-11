@@ -15,6 +15,8 @@ To meet specifications, the project will require submitting three files:
 * the code exported as an html file
 * a writeup report either as a markdown or pdf file 
 
+
+
 Creating a Great Writeup
 ---
 A great writeup should include the [rubric points](https://review.udacity.com/#!/rubrics/481/view) as well as your description of how you addressed each point.  You should include a detailed description of the code used in each step (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.  
@@ -34,7 +36,21 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 ### Dependencies
-This lab requires:
+This project requires **Python 3.5** and the following Python libraries installed:
+
+- [Jupyter](http://jupyter.org/)
+- [NumPy](http://www.numpy.org/)
+- [SciPy](https://www.scipy.org/)
+- [scikit-learn](http://scikit-learn.org/)
+- [TensorFlow](http://tensorflow.org/)
+- [Matplotlib](http://matplotlib.org/)
+- [Pandas](http://pandas.pydata.org/) (Optional)
+
+Run this command at the terminal prompt to install [OpenCV](http://opencv.org/). Useful for image processing:
+
+- `conda install -c https://conda.anaconda.org/menpo opencv3`
+
+OR you can install all the dependencies from here:
 
 * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
 
